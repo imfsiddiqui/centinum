@@ -7,6 +7,9 @@
    id="svg36"
    sodipodi:docname="centinum-social-media-preview.svg"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   inkscape:export-filename="centinum-social-media-preview.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -22,9 +25,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="0.5691406"
-     inkscape:cx="611.44821"
-     inkscape:cy="299.57448"
+     inkscape:zoom="1.6097727"
+     inkscape:cx="744.20444"
+     inkscape:cy="484.22985"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -487,7 +490,7 @@
      style="stroke-width:0.999998" />
   <text
      x="640.5625"
-     y="460"
+     y="488"
      font-family="Arial, sans-serif"
      font-size="48px"
      font-weight="bold"
@@ -496,7 +499,7 @@
      id="text30">centinum</text>
   <text
      x="639.42871"
-     y="485"
+     y="513"
      font-family="Arial, sans-serif"
      font-size="18px"
      fill="#00d4ff"
