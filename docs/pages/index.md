@@ -43,7 +43,7 @@ A central configuration manager for multiple repositories, enabling unified sett
 
 ## 📌 About
 
-centinum is a central configuration manager designed to streamline the management of multiple repositories. It provides a unified approach to settings, workflows, and maintenance, making it easier to manage development environment with consistent configurations.
+centinum is a central configuration manager designed to streamline the management of multiple repositories. It provides a unified approach to settings, workflows, and maintenance, making it easier to manage development environments with consistent configurations.
 
 <p align="right"><a href="#top">☝️</a></p>
 
