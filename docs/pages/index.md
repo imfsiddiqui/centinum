@@ -49,7 +49,7 @@ centinum is a central configuration manager designed to streamline the managemen
 
 ## 🧘 Philosophy
 
-The goal is to minimize setup friction and maximize productivity by automating the repetitive aspects of development environment configuration management.
+The goal is to minimize setup friction and maximize productivity by automating the repetitive aspects of development environments configuration management.
 
 <p align="right"><a href="#top">☝️</a></p>
 
