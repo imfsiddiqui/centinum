@@ -1,10 +1,20 @@
+---
+layout: default
+---
+
 <!-- markdownlint-disable MD024 MD033 MD041 -->
 
 <a id="top"></a>
 
 <div align=center>
 
-🌍 **[Web Page](https://imfsiddiqui.github.io/centinum)** | 💻 **[Source Code](https://github.com/imfsiddiqui/centinum)** | 🚀 **[Releases](https://github.com/imfsiddiqui/centinum/releases)**
+<p>
+  🌍 <strong><a href="https://imfsiddiqui.github.io/{{ site.repository_name }}">Web Page</a></strong>
+  |
+  💻 <strong><a href="https://github.com/imfsiddiqui/{{ site.repository_name }}">Source Code</a></strong>
+  |
+  🚀 <strong><a href="https://github.com/imfsiddiqui/{{ site.repository_name }}/releases">Releases</a></strong>
+</p>
 
 </div>
 
@@ -14,7 +24,7 @@ A central configuration manager for multiple repositories, enabling unified sett
 
 <div align="center">
   <img
-    src="docs/pages/assets/images/centinum-banner-standard.svg"
+    src="./assets/images/centinum-banner-wide.svg"
     style="border-radius: 10px"
     alt="centinum project banner"
   />
