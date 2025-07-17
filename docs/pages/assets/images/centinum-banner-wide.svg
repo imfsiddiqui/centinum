@@ -22,14 +22,14 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.555"
-     inkscape:cx="953.15315"
+     inkscape:cx="951.35135"
      inkscape:cy="110.81081"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g34" />
+     inkscape:current-layer="svg34" />
   <defs
      id="defs11">
     <linearGradient
@@ -304,265 +304,210 @@
      fill="url(#grid)"
      id="rect12" />
   <g
-     id="g2"
-     transform="translate(-18.000001)">
+     id="g1"
+     transform="translate(295.61328)">
+    <circle
+       cx="504.38672"
+       cy="200"
+       r="80"
+       fill="url(#glowGradient)"
+       opacity="0.6"
+       id="circle12"
+       style="fill:url(#glowGradient)" />
     <g
-       transform="matrix(1.7895149,0,0,1.7895149,750.93678,206.17942)"
-       id="g34"
-       style="stroke-width:0.55881">
-      <text
-         x="0"
-         y="-40"
-         font-family="Arial, sans-serif"
-         font-size="56px"
-         font-weight="bold"
-         fill="#ffffff"
-         text-anchor="start"
-         id="text30"
-         style="stroke-width:0.55881">centinum</text>
-      <text
-         x="0"
-         y="-10"
-         font-family="Arial, sans-serif"
-         font-size="20px"
-         fill="#00d4ff"
-         text-anchor="start"
-         id="text31"
-         style="stroke-width:0.55881">Central Configuration Manager</text>
-      <text
-         x="0"
-         y="20"
-         font-family="Arial, sans-serif"
-         font-size="16px"
-         fill="#cccccc"
-         text-anchor="start"
-         id="text32"
-         style="stroke-width:0.55881">Streamline management of multiple repositories with unified</text>
-      <text
-         x="0"
-         y="45"
-         font-family="Arial, sans-serif"
-         font-size="16px"
-         fill="#cccccc"
-         text-anchor="start"
-         id="text33"
-         style="stroke-width:0.55881">approach to settings, workflows, and maintenance across</text>
-      <text
-         x="0"
-         y="70"
-         font-family="Arial, sans-serif"
-         font-size="16px"
-         fill="#cccccc"
-         text-anchor="start"
-         id="text34"
-         style="stroke-width:0.55881">entire development environment.</text>
+       stroke="url(#lineGradient)"
+       stroke-width="2"
+       fill="none"
+       opacity="0.7"
+       id="g19"
+       style="stroke:url(#linearGradient44)"
+       transform="translate(104.38672)">
+      <line
+         x1="400"
+         y1="200"
+         x2="120"
+         y2="120"
+         id="line12"
+         style="stroke:url(#linearGradient36)" />
+      <line
+         x1="400"
+         y1="200"
+         x2="120"
+         y2="280"
+         id="line13"
+         style="stroke:url(#linearGradient37)" />
+      <line
+         x1="400"
+         y1="200"
+         x2="200"
+         y2="80"
+         id="line14"
+         style="stroke:url(#linearGradient38)" />
+      <line
+         x1="400"
+         y1="200"
+         x2="200"
+         y2="320"
+         id="line15"
+         style="stroke:url(#linearGradient39)" />
+      <line
+         x1="400"
+         y1="200"
+         x2="600"
+         y2="80"
+         id="line16"
+         style="stroke:url(#linearGradient40)" />
+      <line
+         x1="400"
+         y1="200"
+         x2="600"
+         y2="320"
+         id="line17"
+         style="stroke:url(#linearGradient41)" />
+      <line
+         x1="400"
+         y1="200"
+         x2="680"
+         y2="120"
+         id="line18"
+         style="stroke:url(#linearGradient42)" />
+      <line
+         x1="400"
+         y1="200"
+         x2="680"
+         y2="280"
+         id="line19"
+         style="stroke:url(#linearGradient43)" />
     </g>
     <g
-       id="g1"
-       transform="translate(-109.69452)">
+       id="g26"
+       transform="translate(104.38672)">
       <circle
-         cx="504.38672"
-         cy="200"
-         r="80"
-         fill="url(#glowGradient)"
-         opacity="0.6"
-         id="circle12"
-         style="fill:url(#glowGradient)" />
-      <g
-         stroke="url(#lineGradient)"
-         stroke-width="2"
-         fill="none"
-         opacity="0.7"
-         id="g19"
-         style="stroke:url(#linearGradient44)"
-         transform="translate(104.38672)">
-        <line
-           x1="400"
-           y1="200"
-           x2="120"
-           y2="120"
-           id="line12"
-           style="stroke:url(#linearGradient36)" />
-        <line
-           x1="400"
-           y1="200"
-           x2="120"
-           y2="280"
-           id="line13"
-           style="stroke:url(#linearGradient37)" />
-        <line
-           x1="400"
-           y1="200"
-           x2="200"
-           y2="80"
-           id="line14"
-           style="stroke:url(#linearGradient38)" />
-        <line
-           x1="400"
-           y1="200"
-           x2="200"
-           y2="320"
-           id="line15"
-           style="stroke:url(#linearGradient39)" />
-        <line
-           x1="400"
-           y1="200"
-           x2="600"
-           y2="80"
-           id="line16"
-           style="stroke:url(#linearGradient40)" />
-        <line
-           x1="400"
-           y1="200"
-           x2="600"
-           y2="320"
-           id="line17"
-           style="stroke:url(#linearGradient41)" />
-        <line
-           x1="400"
-           y1="200"
-           x2="680"
-           y2="120"
-           id="line18"
-           style="stroke:url(#linearGradient42)" />
-        <line
-           x1="400"
-           y1="200"
-           x2="680"
-           y2="280"
-           id="line19"
-           style="stroke:url(#linearGradient43)" />
-      </g>
-      <g
-         id="g26"
-         transform="translate(104.38672)">
-        <circle
-           cx="120"
-           cy="120"
-           r="20"
-           fill="url(#nodeGradient)"
-           stroke="#00d4ff"
-           stroke-width="2"
-           id="circle19"
-           style="fill:url(#linearGradient45)" />
-        <circle
-           cx="120"
-           cy="280"
-           r="20"
-           fill="url(#nodeGradient)"
-           stroke="#00d4ff"
-           stroke-width="2"
-           id="circle20"
-           style="fill:url(#linearGradient46)" />
-        <circle
-           cx="200"
-           cy="80"
-           r="18"
-           fill="url(#nodeGradient)"
-           stroke="#00d4ff"
-           stroke-width="2"
-           id="circle21"
-           style="fill:url(#linearGradient47)" />
-        <circle
-           cx="200"
-           cy="320"
-           r="18"
-           fill="url(#nodeGradient)"
-           stroke="#00d4ff"
-           stroke-width="2"
-           id="circle22"
-           style="fill:url(#linearGradient48)" />
-        <circle
-           cx="600"
-           cy="80"
-           r="18"
-           fill="url(#nodeGradient)"
-           stroke="#00d4ff"
-           stroke-width="2"
-           id="circle23"
-           style="fill:url(#linearGradient49)" />
-        <circle
-           cx="600"
-           cy="320"
-           r="18"
-           fill="url(#nodeGradient)"
-           stroke="#00d4ff"
-           stroke-width="2"
-           id="circle24"
-           style="fill:url(#linearGradient50)" />
-        <circle
-           cx="680"
-           cy="120"
-           r="20"
-           fill="url(#nodeGradient)"
-           stroke="#00d4ff"
-           stroke-width="2"
-           id="circle25"
-           style="fill:url(#linearGradient51)" />
-        <circle
-           cx="680"
-           cy="280"
-           r="20"
-           fill="url(#nodeGradient)"
-           stroke="#00d4ff"
-           stroke-width="2"
-           id="circle26"
-           style="fill:url(#linearGradient52)" />
-      </g>
-      <circle
-         cx="504.38672"
-         cy="200"
-         r="60"
+         cx="120"
+         cy="120"
+         r="20"
          fill="url(#nodeGradient)"
          stroke="#00d4ff"
-         stroke-width="3"
-         id="circle27"
-         style="fill:url(#linearGradient53)" />
+         stroke-width="2"
+         id="circle19"
+         style="fill:url(#linearGradient45)" />
       <circle
-         cx="504.38672"
-         cy="200"
-         r="45"
-         fill="none"
+         cx="120"
+         cy="280"
+         r="20"
+         fill="url(#nodeGradient)"
          stroke="#00d4ff"
          stroke-width="2"
-         opacity="0.5"
-         id="circle28" />
+         id="circle20"
+         style="fill:url(#linearGradient46)" />
       <circle
-         cx="504.38672"
-         cy="200"
-         r="30"
-         fill="none"
-         stroke="#00d4ff"
-         stroke-width="1"
-         opacity="0.3"
-         id="circle29" />
-      <circle
-         cx="504.38672"
-         cy="200"
-         r="9"
-         fill="#00d4ff"
-         opacity="0.9"
-         id="circle30" />
-      <circle
-         cx="504.38672"
-         cy="200"
-         r="60"
-         fill="none"
+         cx="200"
+         cy="80"
+         r="18"
+         fill="url(#nodeGradient)"
          stroke="#00d4ff"
          stroke-width="2"
-         opacity="0.4"
-         id="circle34">
-        <animate
-           attributeName="r"
-           values="60;80;60"
-           dur="3s"
-           repeatCount="indefinite" />
-        <animate
-           attributeName="opacity"
-           values="0.4;0.1;0.4"
-           dur="3s"
-           repeatCount="indefinite" />
-      </circle>
+         id="circle21"
+         style="fill:url(#linearGradient47)" />
+      <circle
+         cx="200"
+         cy="320"
+         r="18"
+         fill="url(#nodeGradient)"
+         stroke="#00d4ff"
+         stroke-width="2"
+         id="circle22"
+         style="fill:url(#linearGradient48)" />
+      <circle
+         cx="600"
+         cy="80"
+         r="18"
+         fill="url(#nodeGradient)"
+         stroke="#00d4ff"
+         stroke-width="2"
+         id="circle23"
+         style="fill:url(#linearGradient49)" />
+      <circle
+         cx="600"
+         cy="320"
+         r="18"
+         fill="url(#nodeGradient)"
+         stroke="#00d4ff"
+         stroke-width="2"
+         id="circle24"
+         style="fill:url(#linearGradient50)" />
+      <circle
+         cx="680"
+         cy="120"
+         r="20"
+         fill="url(#nodeGradient)"
+         stroke="#00d4ff"
+         stroke-width="2"
+         id="circle25"
+         style="fill:url(#linearGradient51)" />
+      <circle
+         cx="680"
+         cy="280"
+         r="20"
+         fill="url(#nodeGradient)"
+         stroke="#00d4ff"
+         stroke-width="2"
+         id="circle26"
+         style="fill:url(#linearGradient52)" />
     </g>
+    <circle
+       cx="504.38672"
+       cy="200"
+       r="60"
+       fill="url(#nodeGradient)"
+       stroke="#00d4ff"
+       stroke-width="3"
+       id="circle27"
+       style="fill:url(#linearGradient53)" />
+    <circle
+       cx="504.38672"
+       cy="200"
+       r="45"
+       fill="none"
+       stroke="#00d4ff"
+       stroke-width="2"
+       opacity="0.5"
+       id="circle28" />
+    <circle
+       cx="504.38672"
+       cy="200"
+       r="30"
+       fill="none"
+       stroke="#00d4ff"
+       stroke-width="1"
+       opacity="0.3"
+       id="circle29" />
+    <circle
+       cx="504.38672"
+       cy="200"
+       r="9"
+       fill="#00d4ff"
+       opacity="0.9"
+       id="circle30" />
+    <circle
+       cx="504.38672"
+       cy="200"
+       r="60"
+       fill="none"
+       stroke="#00d4ff"
+       stroke-width="2"
+       opacity="0.4"
+       id="circle34">
+      <animate
+         attributeName="r"
+         values="60;80;60"
+         dur="3s"
+         repeatCount="indefinite" />
+      <animate
+         attributeName="opacity"
+         values="0.4;0.1;0.4"
+         dur="3s"
+         repeatCount="indefinite" />
+    </circle>
   </g>
 </svg>
