@@ -15,8 +15,16 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
+# CSS
+[*.css]
+indent_size = 2
+
 # HTML
 [*.html]
+indent_size = 2
+
+# JavaScript
+[*.{js.mjs,cjs}]
 indent_size = 2
 
 # JSON
@@ -47,11 +55,3 @@ indent_size = 2
 # YAML
 [*.{yaml,yml}]
 indent_size = 2
-
-# CSS, JavaScript, and TypeScript
-[*.{css,js,jsx,ts,tsx}]
-indent_size = 2
-
-# Python
-[*.py]
-indent_size = 4
