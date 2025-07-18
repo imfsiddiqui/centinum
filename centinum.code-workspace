@@ -5,80 +5,16 @@
     }
   ],
   "settings": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.rulers": [80],
+    "editor.tabSize": 4,
+    "files.defaultLanguage": "plaintext",
     "files.encoding": "utf8",
     "files.eol": "\n",
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "[css]": {
-      "editor.tabSize": 2,
-
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[github-actions-workflow]": {
-      "editor.tabSize": 2,
-
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[html]": {
-      "editor.tabSize": 2,
-
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[javascript]": {
-      "editor.tabSize": 2,
-
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[json]": {
-      "editor.tabSize": 2,
-
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[jsonc]": {
-      "editor.tabSize": 2,
-
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[markdown]": {
-      "editor.tabSize": 2,
-      "files.trimTrailingWhitespace": false,
-
-      "editor.wordWrap": "on",
-
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-    "[svg]": {
-      "editor.tabSize": 2,
-
-      "editor.defaultFormatter": "redhat.vscode-xml",
-      "editor.formatOnSave": true
-    },
-    "[xml]": {
-      "editor.tabSize": 2,
-
-      "editor.defaultFormatter": "redhat.vscode-xml",
-      "editor.formatOnSave": true
-    },
-    "[yaml]": {
-      "editor.tabSize": 2,
-
-      "editor.defaultFormatter": "esbenp.prettier-vscode",
-      "editor.formatOnSave": true
-    },
-
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.rulers": [80],
-    "files.defaultLanguage": "plaintext",
-
     "github.copilot.chat.commitMessageGeneration.instructions": [
       {
         "file": ".github/copilot/commit-message-instructions.md"
@@ -88,6 +24,48 @@
       {
         "file": ".github/copilot/pull-request-description-instructions.md"
       }
-    ]
+    ],
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[github-actions-workflow]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2,
+      "editor.wordWrap": "on",
+      "files.trimTrailingWhitespace": false
+    },
+    "[svg]": {
+      "editor.defaultFormatter": "redhat.vscode-xml",
+      "editor.tabSize": 2
+    },
+    "[xml]": {
+      "editor.defaultFormatter": "redhat.vscode-xml",
+      "editor.tabSize": 2
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    }
   }
 }
