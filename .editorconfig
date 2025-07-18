@@ -32,8 +32,16 @@ indent_size = 2
 indent_size = 2
 trim_trailing_whitespace = false
 
+# SVG
+[*.svg]
+indent_size = 2
+
 # Visual Studio Code (VS Code) Workspace
 [*.code-workspace]
+indent_size = 2
+
+# XML
+[*.xml]
 indent_size = 2
 
 # YAML
