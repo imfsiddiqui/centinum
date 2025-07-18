@@ -15,14 +15,19 @@
         "editor.tabSize": 2,
         "files.trimTrailingWhitespace": false,
 
-        "diffEditor.ignoreTrimWhitespace": false,
         "editor.wordWrap": "on",
 
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
     },
+    "[github-actions-workflow]": {
+        "editor.tabSize": 2,
 
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
 
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.rulers": [80],
     "files.defaultLanguage": "plaintext",
 
