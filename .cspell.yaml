@@ -14,29 +14,55 @@ language: en
 # For example, you might want to add "cspell" or "typescript" to
 # the list of words to be always considered correct.
 words:
+  - asctime
   - bordercolor
   - borderopacity
+  - brepo
   - centinum
   - deskcolor
   - docname
+  - dotenv
+  - dotenvs
+  - dshow
   - esbenp
   - faizan
+  - foxundermoon
   - inkscape
+  - ipm
+  - isort
+  - keyint
+  - levelname
+  - libx
+  - logformat
+  - mediamtx
+  - monitory
   - namedview
   - njsproj
   - ntvs
+  - onefile
   - pagecheckerboard
   - pagecolor
   - pageopacity
+  - preconfigured
   - pycache
+  - pylint
+  - pylintrc
+  - rcfile
+  - rtsp
   - showgrid
   - showpageshadow
   - siddiqui
   - sodipodi
+  - tamasfe
+  - tcsh
+  - toml
+  - vcodec
   - venv
   - xdpi
   - xlink
   - ydpi
+  - yuyv
+  - zerolatency
 
 # flagWords - list of words to be always considered incorrect
 # This is useful for offensive words and common spelling errors.
