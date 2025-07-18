@@ -38,6 +38,12 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.formatOnSave": true
     },
+    "[yaml]": {
+      "editor.tabSize": 2,
+
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
 
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.rulers": [80],
