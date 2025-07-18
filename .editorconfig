@@ -13,17 +13,29 @@ indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
 
+# JSON
+[*.json]
+indent_size = 2
+
+# JSONC
+[*.jsonc]
+indent_size = 2
+
 # Markdown
 [*.{md,markdown}]
 indent_size = 2
 trim_trailing_whitespace = false
 
+# Visual Studio Code (VS Code) Workspace
+[*.code-workspace]
+indent_size = 2
+
 # YAML
 [*.{yaml,yml}]
 indent_size = 2
 
-# HTML, CSS, JavaScript, JSON, and TypeScript
-[*.{html,css,js,jsx,json,jsonc,ts,tsx}]
+# HTML, CSS, JavaScript, and TypeScript
+[*.{html,css,js,jsx,ts,tsx}]
 indent_size = 2
 
 # Python
