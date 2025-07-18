@@ -12,19 +12,31 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "[github-actions-workflow]": {
-        "editor.tabSize": 2,
+      "editor.tabSize": 2,
 
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[json]": {
+      "editor.tabSize": 2,
+
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[jsonc]": {
+      "editor.tabSize": 2,
+
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
     },
     "[markdown]": {
-        "editor.tabSize": 2,
-        "files.trimTrailingWhitespace": false,
+      "editor.tabSize": 2,
+      "files.trimTrailingWhitespace": false,
 
-        "editor.wordWrap": "on",
+      "editor.wordWrap": "on",
 
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
     },
 
     "diffEditor.ignoreTrimWhitespace": false,
@@ -40,6 +52,6 @@
       {
         "file": ".github/copilot/pull-request-description-instructions.md"
       }
-    ],
+    ]
   }
 }
