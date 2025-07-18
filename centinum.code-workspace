@@ -44,6 +44,18 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.formatOnSave": true
     },
+    "[svg]": {
+      "editor.tabSize": 2,
+
+      "editor.defaultFormatter": "redhat.vscode-xml",
+      "editor.formatOnSave": true
+    },
+    "[xml]": {
+      "editor.tabSize": 2,
+
+      "editor.defaultFormatter": "redhat.vscode-xml",
+      "editor.formatOnSave": true
+    },
     "[yaml]": {
       "editor.tabSize": 2,
 
