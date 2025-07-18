@@ -18,6 +18,10 @@ trim_trailing_whitespace = true
 indent_size = 2
 trim_trailing_whitespace = false
 
+# YAML
+[*.{yaml,yml}]
+indent_size = 2
+
 # HTML, CSS, JavaScript, JSON, and TypeScript
 [*.{html,css,js,jsx,json,jsonc,ts,tsx}]
 indent_size = 2
@@ -25,7 +29,3 @@ indent_size = 2
 # Python
 [*.py]
 indent_size = 4
-
-# YAML
-[*.yml]
-indent_size = 2
