@@ -5,9 +5,27 @@
     }
   ],
   "settings": {
-    "editor.rulers": [80],
     "files.encoding": "utf8",
     "files.eol": "\n",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "editor.tabSize": 2,
+        "files.trimTrailingWhitespace": false,
+
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.wordWrap": "on",
+
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+
+
+    "editor.rulers": [80],
+    "files.defaultLanguage": "plaintext",
+
     "github.copilot.chat.commitMessageGeneration.instructions": [
       {
         "file": ".github/copilot/commit-message-instructions.md"
@@ -17,6 +35,6 @@
       {
         "file": ".github/copilot/pull-request-description-instructions.md"
       }
-    ]
+    ],
   }
 }
