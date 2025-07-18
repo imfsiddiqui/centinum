@@ -17,6 +17,12 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.formatOnSave": true
     },
+    "[html]": {
+      "editor.tabSize": 2,
+
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
     "[json]": {
       "editor.tabSize": 2,
 
