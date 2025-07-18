@@ -7,27 +7,48 @@
 version: "0.2"
 
 # language - current active spelling language
-language: "en"
+language: en
 
 # words - list of words to be always considered correct
 # This is useful for project specific words, acronyms, and names.
 # For example, you might want to add "cspell" or "typescript" to
 # the list of words to be always considered correct.
 words:
-  - "centinum"
-  - "venv"
+  - bordercolor
+  - borderopacity
+  - centinum
+  - deskcolor
+  - docname
+  - esbenp
+  - faizan
+  - inkscape
+  - namedview
+  - njsproj
+  - ntvs
+  - pagecheckerboard
+  - pagecolor
+  - pageopacity
+  - pycache
+  - showgrid
+  - showpageshadow
+  - siddiqui
+  - sodipodi
+  - venv
+  - xdpi
+  - xlink
+  - ydpi
 
 # flagWords - list of words to be always considered incorrect
 # This is useful for offensive words and common spelling errors.
 # For example "hte" should be "the"
-flagWords:
+flagWords: null
 
 # ignorePaths - list of glob patterns to ignore
 # This is useful for ignoring files that are not relevant to the project.
 # For example, you might want to ignore node_modules, dist, build, etc.
 ignorePaths:
-  - ".venv/**"
+  - .venv/**
   - "**/*.log"
-  - "build/**"
-  - "dist/**"
-  - "node_modules/**"
+  - build/**
+  - dist/**
+  - node_modules/**
