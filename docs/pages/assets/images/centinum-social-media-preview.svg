@@ -508,22 +508,15 @@
     id="circle30"
     style="stroke-width:0.999998" />
   <text
-    x="640.5625"
-    y="488"
+    x="640.75"
+    y="522"
     font-family="Arial, sans-serif"
     font-size="48px"
     font-weight="bold"
     fill="#ffffff"
     text-anchor="middle"
-    id="text30">centinum</text>
-  <text
-    x="639.42871"
-    y="513"
-    font-family="Arial, sans-serif"
-    font-size="18px"
-    fill="#00d4ff"
-    text-anchor="middle"
-    id="text31">Central Configuration Manager</text>
+    id="text30"
+    style="font-size:64px">centinum</text>
   <circle
     cx="640"
     cy="320"

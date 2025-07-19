@@ -22,7 +22,7 @@
     inkscape:deskcolor="#d1d1d1"
     showgrid="false"
     inkscape:zoom="0.80488636"
-    inkscape:cx="530.50968"
+    inkscape:cx="530.50967"
     inkscape:cy="295.07271"
     inkscape:window-width="1920"
     inkscape:window-height="1009"
@@ -285,22 +285,15 @@
     opacity="0.9"
     id="circle30" />
   <text
-    x="640"
+    x="640.75"
     y="530"
     font-family="Arial, sans-serif"
     font-size="48px"
     font-weight="bold"
     fill="#ffffff"
     text-anchor="middle"
-    id="text30">centinum</text>
-  <text
-    x="640"
-    y="555"
-    font-family="Arial, sans-serif"
-    font-size="18px"
-    fill="#00d4ff"
-    text-anchor="middle"
-    id="text31">Central Configuration Manager</text>
+    id="text30"
+    style="font-size:64px">centinum</text>
   <circle
     cx="640"
     cy="320"
