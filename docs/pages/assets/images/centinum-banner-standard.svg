@@ -21,9 +21,9 @@
     inkscape:pagecheckerboard="0"
     inkscape:deskcolor="#d1d1d1"
     showgrid="false"
-    inkscape:zoom="1.1382812"
-    inkscape:cx="640.43929"
-    inkscape:cy="320.21964"
+    inkscape:zoom="0.80488636"
+    inkscape:cx="530.50967"
+    inkscape:cy="295.07271"
     inkscape:window-width="1920"
     inkscape:window-height="1009"
     inkscape:window-x="-8"
@@ -43,12 +43,12 @@
         style="stop-color:#1a1a2e;stop-opacity:1"
         id="stop1" />
       <stop
-        offset="50%"
-        style="stop-color:#16213e;stop-opacity:1"
+        offset="0.39900663"
+        style="stop-color:#22315d;stop-opacity:1;"
         id="stop2" />
       <stop
-        offset="100%"
-        style="stop-color:#0f3460;stop-opacity:1"
+        offset="1"
+        style="stop-color:#154b8b;stop-opacity:1;"
         id="stop3" />
     </linearGradient>
     <radialGradient
@@ -122,11 +122,6 @@
       opacity="0.1"
       id="path11" />
   </pattern>
-  <rect
-    width="1280"
-    height="640"
-    fill="url(#grid)"
-    id="rect12" />
   <circle
     cx="640"
     cy="320"
@@ -290,50 +285,15 @@
     opacity="0.9"
     id="circle30" />
   <text
-    x="640"
+    x="640.75"
     y="530"
     font-family="Arial, sans-serif"
     font-size="48px"
     font-weight="bold"
     fill="#ffffff"
     text-anchor="middle"
-    id="text30">centinum</text>
-  <text
-    x="640"
-    y="555"
-    font-family="Arial, sans-serif"
-    font-size="18px"
-    fill="#00d4ff"
-    text-anchor="middle"
-    id="text31">Central Configuration Manager</text>
-  <g
-    opacity="0.3"
-    id="g35">
-    <circle
-      cx="100"
-      cy="100"
-      r="2"
-      fill="#00d4ff"
-      id="circle32" />
-    <circle
-      cx="1180"
-      cy="100"
-      r="2"
-      fill="#00d4ff"
-      id="circle33" />
-    <circle
-      cx="100"
-      cy="540"
-      r="2"
-      fill="#00d4ff"
-      id="circle34" />
-    <circle
-      cx="1180"
-      cy="540"
-      r="2"
-      fill="#00d4ff"
-      id="circle35" />
-  </g>
+    id="text30"
+    style="font-size:64px">centinum</text>
   <circle
     cx="640"
     cy="320"

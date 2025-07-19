@@ -18,14 +18,14 @@ layout: default
 
 </div>
 
-# 🧠 centinum
+# ⭕ centinum
 
 A central configuration manager for multiple repositories, enabling unified
 settings, streamlined workflows, and simplified maintenance across projects.
 
 <div align="center">
   <img
-    src="./assets/images/centinum-banner-wide.svg"
+    src="./assets/images/centinum-banner-standard.svg"
     style="border-radius: 10px"
     alt="centinum project banner"
   />
@@ -33,10 +33,10 @@ settings, streamlined workflows, and simplified maintenance across projects.
 
 ## 📚 Table of Contents
 
-- [🧠 centinum](#-centinum)
+- [⭕ centinum](#-centinum)
   - [📚 Table of Contents](#-table-of-contents)
   - [📌 About](#-about)
-  - [🧘 Philosophy](#-philosophy)
+  - [🧠 Philosophy](#-philosophy)
   - [📄 Important Documents](#-important-documents)
   - [📜 License](#-license)
 
@@ -51,7 +51,7 @@ with consistent configurations.
 
 <p align="right"><a href="#top">☝️</a></p>
 
-## 🧘 Philosophy
+## 🧠 Philosophy
 
 The goal is to minimize setup friction and maximize productivity by automating
 the repetitive aspects of development environments configuration management.
