@@ -14,50 +14,129 @@ language: en
 # For example, you might want to add "cspell" or "typescript" to
 # the list of words to be always considered correct.
 words:
+  - abstractproperty
+  - altgraph
+  - analyse
+  - analysed
+  - analyzeduration
+  - anyio
+  - argparse
   - asctime
+  - asdict
+  - autofocus
+  - booleaness
   - bordercolor
   - borderopacity
   - brepo
   - centinum
+  - classmethod
+  - colorama
+  - contextlib
+  - contextmanager
+  - ctypes
   - deskcolor
   - docname
+  - docstrings
   - dotenv
   - dotenvs
   - dshow
   - esbenp
   - faizan
+  - fastapi
+  - fflags
+  - firstparty
   - foxundermoon
+  - httptools
+  - idna
+  - imfsiddiqui
   - inkscape
+  - inlinevar
   - ipm
   - isort
+  - ixin
+  - jwtjwks
   - keyint
   - levelname
   - libx
+  - linecap
+  - linejoin
+  - localfolder
   - logformat
   - mediamtx
+  - mjpeg
   - monitory
+  - mpegts
+  - msvs
+  - muxer
+  - mymodule
+  - mypackage
+  - mypy
   - namedview
   - njsproj
+  - nobuffer
+  - noout
+  - noqa
+  - nosec
   - ntvs
   - onefile
+  - optparse
+  - otherstream
+  - overgeneral
   - pagecheckerboard
   - pagecolor
   - pageopacity
+  - parseable
+  - pathspec
+  - pefile
+  - platformdirs
+  - pprof
   - preconfigured
+  - probesize
   - pycache
+  - pycodestyle
+  - pydantic
+  - pydocstyle
+  - pyflakes
+  - pygtk
+  - pyinstaller
   - pylint
   - pylintrc
+  - pywin
   - rcfile
+  - remux
+  - rgxs
+  - rtcp
+  - rtmps
   - rtsp
+  - rtsps
+  - setuptools
   - showgrid
   - showpageshadow
   - siddiqui
+  - smpte
+  - sniffio
+  - snowballstemmer
   - sodipodi
+  - somepath
+  - starlette
+  - stdlib
+  - strftime
   - tamasfe
   - tcsh
+  - thirdparty
+  - timespan
   - toml
+  - tomlkit
+  - tspan
+  - typealias
+  - typevar
+  - uvicorn
   - vcodec
   - venv
+  - watchfiles
+  - webrtc
+  - whep
+  - wheps
   - xdpi
   - xlink
   - ydpi
