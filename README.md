@@ -17,9 +17,9 @@ settings, streamlined workflows, and simplified maintenance across projects.
 
 <div align="center">
   <img
-    src="docs/pages/assets/images/centinum-banner-standard.svg"
+    src="docs/pages/assets/images/banner-standard.svg"
     style="border-radius: 10px"
-    alt="centinum project banner"
+    alt="project banner"
   />
 </div>
 
