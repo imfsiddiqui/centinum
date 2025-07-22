@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
-favicon_emoji: ⭕
 repository_name: centinum
 title: centinum
+emoji: ⭕
 description:
   A central configuration manager for multiple repositories, enabling unified
   settings, streamlined workflows, and simplified maintenance across projects.
