@@ -25,7 +25,7 @@ settings, streamlined workflows, and simplified maintenance across projects.
 
 <div align="center">
   <img
-    src="./assets/images/banner-standard.svg"
+    src="{{ site.baseurl }}/assets/images/banner-standard.svg"
     style="border-radius: 10px"
     alt="project banner"
   />
