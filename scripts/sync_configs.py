@@ -108,14 +108,6 @@ def file_diff(src: str, dst: str) -> str:
         str:
             A string containing the unified diff, or an empty string if
             the files are identical.
-
-    Raises:
-        OSError:
-            If there is an error reading either file, an error message
-            is logged and an empty string is returned.
-        IOError:
-            If there is an error reading either file, an error message
-            is logged and an empty string is returned.
     """
     try:
         with open(src, 'r', encoding='utf-8') as f1:
