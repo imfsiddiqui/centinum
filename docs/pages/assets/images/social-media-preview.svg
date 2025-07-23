@@ -308,7 +308,7 @@
     id="rect11-2"
     x="0"
     y="0"
-    style="display:inline;fill:url(#bgGradient-0)" />
+    style="display:inline;fill:#000000;fill-opacity:1" />
   <pattern
     id="grid"
     width="40"
