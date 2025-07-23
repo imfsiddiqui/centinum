@@ -180,7 +180,7 @@ def sync_files(auto_approve: bool = False) -> None:
         logging.info('[RESULT] Update cancelled.')
 
 
-def main():
+def main() -> None:
     """Main function to parse arguments and execute the sync process.
 
     Parses command line arguments to determine if the user wants to
