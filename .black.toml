@@ -1,0 +1,7 @@
+# ------------------------------------------------------------------------------
+# Black configuration file
+# https://black.readthedocs.io/en/stable/usage_and_configuration/index.html
+# ------------------------------------------------------------------------------
+
+[tool.black]
+skip-string-normalization = true
