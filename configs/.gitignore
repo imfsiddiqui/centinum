@@ -1,0 +1,74 @@
+# ------------------------------------------------------------------------------
+# Git ignore file
+# https://git-scm.com/docs/gitignore
+# ------------------------------------------------------------------------------
+
+# Build and Distribution
+*.egg-info/
+bin/
+build/
+dist/
+out/
+
+# Debug and Runtime
+*.app
+*.dll
+*.exe
+*.out
+*.so
+
+# Editor and IDE Files
+*.njsproj
+*.ntvs*
+*.sln
+*.suo
+*.sw
+*.swo
+*.swp
+
+# Environment Files
+.env
+.env.dev
+.env.development
+.env.local
+.env.prod
+.env.production
+.env.stag
+.env.staging
+.env.test
+.env.testing
+
+# Log Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS System Files
+.AppleDouble
+.DS_Store
+.LSOverride
+
+# Node.js Dependencies
+node_modules/
+
+# Python Bytecode and Virtual Environments
+__pycache__/
+.venv/
+*.py[cod]
+*.pyd
+*.pyo
+env/
+venv/
+
+# Temporary Files and Folders
+*~
+temp/
+tmp/
+
+# Windows System Files
+$RECYCLE.BIN/
+Desktop.ini
+Thumbs.db
+
+# Add project-specific ignores below
