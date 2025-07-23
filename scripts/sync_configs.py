@@ -126,7 +126,7 @@ def file_diff(src: str, dst: str) -> str:
         logging.error('[ERROR] Could not read destination file %s: %s', dst, e)
         return ''
 
-    diff = difflib.unified_diff(dst_lines, src_lines, fromfile=dst, tofile=src)
+    diff = difflib.unified_diff(src_lines, dst_lines, fromfile=src, tofile=dst)
     return ''.join(diff)
 
 
