@@ -80,6 +80,10 @@ def file_is_newer(src: str, dst: str) -> bool:
             True if the source file is newer or the destination file
             does not exist.
     """
+    if not os.path.exists(src):
+        logging.warning('[SKIP] Source file does not exist: %s', src)
+        return False
+
     if not os.path.exists(dst):
         return True
 
@@ -133,16 +137,15 @@ def sync_files(auto_approve: bool = False) -> None:
     updated_files = []
 
     for src, dst in FILE_PAIRS:
-        if not os.path.exists(src):
-            logging.info('[SKIP] Source not found: %s', src)
-            continue
-
         if file_is_newer(src, dst):
             diff = file_diff(src, dst)
+
             if diff:
                 logging.info('[DIFF] %s -> %s', src, dst)
                 logging.info(diff)
                 updated_files.append((src, dst))
+            else:
+                logging.info('[OK] Up to date: %s', dst)
         else:
             logging.info('[OK] Up to date: %s', dst)
 
