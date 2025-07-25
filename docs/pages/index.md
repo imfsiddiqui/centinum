@@ -37,6 +37,7 @@ settings, streamlined workflows, and simplified maintenance across projects.
   - [📚 Table of Contents](#-table-of-contents)
   - [📌 About](#-about)
   - [🧠 Philosophy](#-philosophy)
+  - [🔑 Key Features](#-key-features)
   - [📄 Important Documents](#-important-documents)
   - [📜 License](#-license)
 
@@ -55,6 +56,20 @@ with consistent configurations.
 
 The goal is to minimize setup friction and maximize productivity by automating
 the repetitive aspects of development environments configuration management.
+
+<p align="right"><a href="#top">☝️</a></p>
+
+## 🔑 Key Features
+
+- **Centralized Configuration**: Manage settings across multiple repositories
+  from a single location.
+- **Unified Workflows**: Streamline development processes with consistent
+  workflows.
+- **Cross-Repository Support**: Easily apply configurations to various projects
+  and repositories.
+- **Automated Updates**: Keep configurations up-to-date with minimal manual
+  intervention.
+- **Open Source**: Freely available for use, modification, and distribution.
 
 <p align="right"><a href="#top">☝️</a></p>
 
