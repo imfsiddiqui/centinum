@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Git user
         run: |
@@ -28,7 +30,9 @@ jobs:
           git config --global user.email "${GH_EMAIL}"
 
       - name: Authenticate GitHub CLI
-        run: echo "${GH_TOKEN}" | gh auth login --with-token
+        run: gh auth setup-git
+        env:
+          GH_TOKEN: "${GH_TOKEN}"
 
       - name: Get changed files
         run: |
@@ -37,11 +41,6 @@ jobs:
             "${{ github.event.pull_request.merge_commit_sha }}" \
             > "${CHANGED_FILES_FILE}"
           cat "${CHANGED_FILES_FILE}"
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
 
       - name: Update files in target repositories
         run: python main.py
