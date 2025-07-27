@@ -1,0 +1,47 @@
+# Workflow to update configuration files in other repositories after a pull
+# request is merged
+name: Update configuration files in other repositories
+
+on:
+  pull_request:
+    types:
+      - closed
+
+env:
+  GH_USER: github-actions[bot]
+  GH_EMAIL: github-actions[bot]@users.noreply.github.com
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  CHANGED_FILES_FILE: changed.txt
+
+jobs:
+  update-config-files:
+    name: Update configuration files in other repositories
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Git user
+        run: |
+          git config --global user.name "${GH_USER}"
+          git config --global user.email "${GH_EMAIL}"
+
+      - name: Authenticate GitHub CLI
+        run: echo "${GH_TOKEN}" | gh auth login --with-token
+
+      - name: Get changed files
+        run: |
+          git diff --name-only \
+            ${{ github.event.pull_request.base.sha }} \
+            ${{ github.event.pull_request.merge_commit_sha }} \
+            > ${CHANGED_FILES_FILE}
+          cat ${CHANGED_FILES_FILE}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update files in target repositories
+        run: python centinum.py
