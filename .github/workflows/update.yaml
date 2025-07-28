@@ -88,7 +88,8 @@ jobs:
             echo "Any changes made: ${changes}"
 
             if [[ ${changes} -eq 1 ]]; then
-              pushd "${repo_dir}" || exit
+              # shellcheck disable=SC2164
+              pushd "${repo_dir}"
               git checkout -b "${branch}"
               git add .
               git commit -m "${commit_msg}"
@@ -112,6 +113,7 @@ jobs:
                 --merge \
                 --delete-branch \
                 --repo "${target_repo}"
-              popd || exit
+              # shellcheck disable=SC2164
+              popd
             fi
           done
