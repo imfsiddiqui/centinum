@@ -6,6 +6,14 @@
       "repo_name": "imfsiddiqui/brepo",
       "files": [
         {
+          "source": ".github/copilot/commit-message-instructions.md",
+          "destination": ".github/copilot/commit-message-instructions.md"
+        },
+        {
+          "source": ".github/copilot/pull-request-description-instructions.md",
+          "destination": ".github/copilot/pull-request-description-instructions.md"
+        },
+        {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
         },
@@ -30,6 +38,14 @@
     {
       "repo_name": "imfsiddiqui/imfsiddiqui.github.io",
       "files": [
+        {
+          "source": ".github/copilot/commit-message-instructions.md",
+          "destination": ".github/copilot/commit-message-instructions.md"
+        },
+        {
+          "source": ".github/copilot/pull-request-description-instructions.md",
+          "destination": ".github/copilot/pull-request-description-instructions.md"
+        },
         {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
@@ -56,6 +72,14 @@
       "repo_name": "imfsiddiqui/ipm",
       "files": [
         {
+          "source": ".github/copilot/commit-message-instructions.md",
+          "destination": ".github/copilot/commit-message-instructions.md"
+        },
+        {
+          "source": ".github/copilot/pull-request-description-instructions.md",
+          "destination": ".github/copilot/pull-request-description-instructions.md"
+        },
+        {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
         },
@@ -80,6 +104,14 @@
     {
       "repo_name": "imfsiddiqui/logkey",
       "files": [
+        {
+          "source": ".github/copilot/commit-message-instructions.md",
+          "destination": ".github/copilot/commit-message-instructions.md"
+        },
+        {
+          "source": ".github/copilot/pull-request-description-instructions.md",
+          "destination": ".github/copilot/pull-request-description-instructions.md"
+        },
         {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
@@ -106,6 +138,14 @@
       "repo_name": "imfsiddiqui/monitory",
       "files": [
         {
+          "source": ".github/copilot/commit-message-instructions.md",
+          "destination": ".github/copilot/commit-message-instructions.md"
+        },
+        {
+          "source": ".github/copilot/pull-request-description-instructions.md",
+          "destination": ".github/copilot/pull-request-description-instructions.md"
+        },
+        {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
         },
@@ -130,6 +170,14 @@
     {
       "repo_name": "imfsiddiqui/nexus",
       "files": [
+        {
+          "source": ".github/copilot/commit-message-instructions.md",
+          "destination": ".github/copilot/commit-message-instructions.md"
+        },
+        {
+          "source": ".github/copilot/pull-request-description-instructions.md",
+          "destination": ".github/copilot/pull-request-description-instructions.md"
+        },
         {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
