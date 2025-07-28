@@ -11,7 +11,8 @@ env:
   GH_USER: github-actions[bot]
   GH_EMAIL: github-actions[bot]@users.noreply.github.com
   GH_TOKEN: "${{ secrets.GH_TOKEN }}"
-  CHANGED_FILES_FILE: changed.txt
+  CHANGES_FILE: changed.txt
+  CONFIG_FILE: .centinumrc.json
 
 jobs:
   update-config-files:
@@ -39,8 +40,81 @@ jobs:
           git diff --name-only \
             "${{ github.event.pull_request.base.sha }}" \
             "${{ github.event.pull_request.merge_commit_sha }}" \
-            > "${CHANGED_FILES_FILE}"
-          cat "${CHANGED_FILES_FILE}"
+            > "${CHANGES_FILE}"
+          cat "${CHANGES_FILE}"
 
       - name: Update files in target repositories
-        run: python main.py
+        run: |
+          echo "Updating files in target repositories..."
+
+          mapfile -t changes_files < "${CHANGES_FILE}"
+          commit_msg="🔧 chore: update configurations"
+          pr_title=${commit_msg}
+          pr_body=$(cat <<EOF
+          ## 🎯 Purpose
+
+          Copies mapped files that changed in the source repository to
+          keeps this repository up to date with latest changes.
+
+          ## 💡 Notes
+
+          No breaking changes expected.
+          EOF
+          )
+
+          jq -c '.target_repos[]' "${CONFIG_FILE}" | while read -r repo; do
+            target_repo=$(echo "${repo}" | jq -r '.repo_name')
+            repo_dir=$(pwd)/${target_repo}
+            branch=$(jq -r '.branch' "${CONFIG_FILE}")
+            files=$(echo "${repo}" | jq -c '.files[]?')
+            changes=0
+
+            git clone \
+              "https://x-access-token:${GH_TOKEN}@github.com/${target_repo}" \
+              "${repo_dir}"
+
+            for mapping in ${files}; do
+              src=$(echo "${mapping}" | jq -r '.source')
+              dest=$(echo "${mapping}" | jq -r '.destination')
+
+              for changed in "${changes_files[@]}"; do
+                if [[ "${changed}" == "${src}" ]]; then
+                  echo "Syncing ${src} ---> ${repo_dir}/${dest}"
+                  mkdir -p "$(dirname "${repo_dir}/${dest}")"
+                  cp -p "${src}" "${repo_dir}/${dest}"
+                  changes=1
+                fi
+              done
+            done
+
+            echo "Any changes made: ${changes}"
+
+            if [[ ${changes} -eq 1 ]]; then
+              pushd "${repo_dir}" || exit
+              git checkout -b "${branch}"
+              git add .
+              git commit -m "${commit_msg}"
+              git push origin "${branch}"
+              gh pr create \
+                --title "${pr_title}" \
+                --body "${pr_body}" \
+                --base main \
+                --head "${branch}" \
+                --repo "${target_repo}" \
+                --label enhancement \
+                --assignee "${GITHUB_ACTOR}"
+              pr_num=$(gh pr list \
+                --state open \
+                --head "${branch}" \
+                --json number \
+                -q '.[0].number' \
+                --repo "${target_repo}")
+              gh pr merge \
+                "${pr_num}" \
+                --merge \
+                --admin \
+                --delete-branch \
+                --repo "${target_repo}"
+              popd || exit
+            fi
+          done
