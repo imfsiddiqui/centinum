@@ -32,8 +32,6 @@ jobs:
 
       - name: Authenticate GitHub CLI
         run: gh auth setup-git
-        env:
-          GH_TOKEN: "${GH_TOKEN}"
 
       - name: Get changed files
         run: |
