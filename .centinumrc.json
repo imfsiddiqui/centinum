@@ -113,6 +113,10 @@
           "destination": ".github/copilot/pull-request-description-instructions.md"
         },
         {
+          "source": ".black.toml",
+          "destination": ".black.toml"
+        },
+        {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
         },
@@ -121,12 +125,24 @@
           "destination": ".editorconfig"
         },
         {
+          "source": ".flake8",
+          "destination": ".flake8"
+        },
+        {
           "source": ".gitignore",
           "destination": ".gitignore"
         },
         {
+          "source": ".isort.cfg",
+          "destination": ".isort.cfg"
+        },
+        {
           "source": ".prettierrc.yaml",
           "destination": ".prettierrc.yaml"
+        },
+        {
+          "source": ".pylintrc.toml",
+          "destination": ".pylintrc.toml"
         },
         {
           "source": "centinum.code-workspace",
@@ -146,6 +162,10 @@
           "destination": ".github/copilot/pull-request-description-instructions.md"
         },
         {
+          "source": ".black.toml",
+          "destination": ".black.toml"
+        },
+        {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
         },
@@ -154,12 +174,24 @@
           "destination": ".editorconfig"
         },
         {
+          "source": ".flake8",
+          "destination": ".flake8"
+        },
+        {
           "source": ".gitignore",
           "destination": ".gitignore"
         },
         {
+          "source": ".isort.cfg",
+          "destination": ".isort.cfg"
+        },
+        {
           "source": ".prettierrc.yaml",
           "destination": ".prettierrc.yaml"
+        },
+        {
+          "source": ".pylintrc.toml",
+          "destination": ".pylintrc.toml"
         },
         {
           "source": "centinum.code-workspace",
