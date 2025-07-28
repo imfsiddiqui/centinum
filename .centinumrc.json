@@ -10,6 +10,18 @@
           "destination": ".cspell.yaml"
         },
         {
+          "source": ".editorconfig",
+          "destination": ".editorconfig"
+        },
+        {
+          "source": ".gitignore",
+          "destination": ".gitignore"
+        },
+        {
+          "source": ".prettierrc.yaml",
+          "destination": ".prettierrc.yaml"
+        },
+        {
           "source": "centinum.code-workspace",
           "destination": "brepo.code-workspace"
         }
@@ -21,6 +33,18 @@
         {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": ".editorconfig",
+          "destination": ".editorconfig"
+        },
+        {
+          "source": ".gitignore",
+          "destination": ".gitignore"
+        },
+        {
+          "source": ".prettierrc.yaml",
+          "destination": ".prettierrc.yaml"
         },
         {
           "source": "centinum.code-workspace",
@@ -36,6 +60,18 @@
           "destination": ".cspell.yaml"
         },
         {
+          "source": ".editorconfig",
+          "destination": ".editorconfig"
+        },
+        {
+          "source": ".gitignore",
+          "destination": ".gitignore"
+        },
+        {
+          "source": ".prettierrc.yaml",
+          "destination": ".prettierrc.yaml"
+        },
+        {
           "source": "centinum.code-workspace",
           "destination": "ipm.code-workspace"
         }
@@ -47,6 +83,18 @@
         {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": ".editorconfig",
+          "destination": ".editorconfig"
+        },
+        {
+          "source": ".gitignore",
+          "destination": ".gitignore"
+        },
+        {
+          "source": ".prettierrc.yaml",
+          "destination": ".prettierrc.yaml"
         },
         {
           "source": "centinum.code-workspace",
@@ -62,6 +110,18 @@
           "destination": ".cspell.yaml"
         },
         {
+          "source": ".editorconfig",
+          "destination": ".editorconfig"
+        },
+        {
+          "source": ".gitignore",
+          "destination": ".gitignore"
+        },
+        {
+          "source": ".prettierrc.yaml",
+          "destination": ".prettierrc.yaml"
+        },
+        {
           "source": "centinum.code-workspace",
           "destination": "monitory.code-workspace"
         }
@@ -73,6 +133,18 @@
         {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": ".editorconfig",
+          "destination": ".editorconfig"
+        },
+        {
+          "source": ".gitignore",
+          "destination": ".gitignore"
+        },
+        {
+          "source": ".prettierrc.yaml",
+          "destination": ".prettierrc.yaml"
         },
         {
           "source": "centinum.code-workspace",
