@@ -28,36 +28,36 @@ import shutil
 # List of file pairs (source, destination)
 FILE_PAIRS = [
     (
-        '.github/copilot/commit-message-instructions.md',
-        'configs/.github/copilot/commit-message-instructions.md',
+        ".github/copilot/commit-message-instructions.md",
+        "configs/.github/copilot/commit-message-instructions.md",
     ),
     (
-        '.github/copilot/pull-request-description-instructions.md',
-        'configs/.github/copilot/pull-request-description-instructions.md',
+        ".github/copilot/pull-request-description-instructions.md",
+        "configs/.github/copilot/pull-request-description-instructions.md",
     ),
     (
-        '.github/workflows/pages.yaml',
-        'configs/.github/workflows/pages.yaml',
+        ".github/workflows/pages.yaml",
+        "configs/.github/workflows/pages.yaml",
     ),
     (
-        '.cspell.yaml',
-        'configs/.cspell.yaml',
+        ".cspell.yaml",
+        "configs/.cspell.yaml",
     ),
     (
-        '.editorconfig',
-        'configs/.editorconfig',
+        ".editorconfig",
+        "configs/.editorconfig",
     ),
     (
-        '.gitignore',
-        'configs/.gitignore',
+        ".gitignore",
+        "configs/.gitignore",
     ),
     (
-        '.prettierrc.yaml',
-        'configs/.prettierrc.yaml',
+        ".prettierrc.yaml",
+        "configs/.prettierrc.yaml",
     ),
     (
-        'centinum.code-workspace',
-        'configs/code.code-workspace',
+        "centinum.code-workspace",
+        "configs/code.code-workspace",
     ),
 ]
 
@@ -81,7 +81,7 @@ def file_is_newer(src: str, dst: str) -> bool:
             does not exist.
     """
     if not os.path.exists(src):
-        logging.warning('[SKIP] Source file does not exist: %s', src)
+        logging.warning("[SKIP] Source file does not exist: %s", src)
         return False
 
     if not os.path.exists(dst):
@@ -110,24 +110,24 @@ def file_diff(src: str, dst: str) -> str:
             the files are identical.
     """
     try:
-        with open(src, 'r', encoding='utf-8') as f1:
+        with open(src, "r", encoding="utf-8") as f1:
             src_lines = f1.readlines()
     except (OSError, IOError) as e:
-        logging.error('[ERROR] Could not read source file %s: %s', src, e)
-        return ''
+        logging.error("[ERROR] Could not read source file %s: %s", src, e)
+        return ""
 
     if not os.path.exists(dst):
-        return ''.join(src_lines)
+        return "".join(src_lines)
 
     try:
-        with open(dst, 'r', encoding='utf-8') as f2:
+        with open(dst, "r", encoding="utf-8") as f2:
             dst_lines = f2.readlines()
     except (OSError, IOError) as e:
-        logging.error('[ERROR] Could not read destination file %s: %s', dst, e)
-        return ''
+        logging.error("[ERROR] Could not read destination file %s: %s", dst, e)
+        return ""
 
     diff = difflib.unified_diff(src_lines, dst_lines, fromfile=dst, tofile=src)
-    return ''.join(diff)
+    return "".join(diff)
 
 
 def sync_files(auto_approve: bool = False) -> None:
@@ -150,34 +150,34 @@ def sync_files(auto_approve: bool = False) -> None:
             diff = file_diff(src, dst)
 
             if diff:
-                logging.info('[DIFF] %s -> %s', src, dst)
+                logging.info("[DIFF] %s -> %s", src, dst)
                 logging.info(diff)
                 updated_files.append((src, dst))
             else:
-                logging.info('[OK] Up to date: %s', dst)
+                logging.info("[OK] Up to date: %s", dst)
         else:
-            logging.info('[OK] Up to date: %s', dst)
+            logging.info("[OK] Up to date: %s", dst)
 
     if not updated_files:
-        logging.info('[RESULT] All files are up to date.')
+        logging.info("[RESULT] All files are up to date.")
         return
 
     if auto_approve:
-        confirm = 'yes'
+        confirm = "yes"
     else:
         confirm = (
-            input('[INPUT] Update destination files? (y/N to confirm): ')
+            input("[INPUT] Update destination files? (y/N to confirm): ")
             .strip()
             .lower()
         )
 
-    if confirm in ('y', 'yes'):
+    if confirm in ("y", "yes"):
         for src, dst in updated_files:
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copy2(src, dst)
-            logging.info('[UPDATED] %s', dst)
+            logging.info("[UPDATED] %s", dst)
     else:
-        logging.info('[RESULT] Update cancelled.')
+        logging.info("[RESULT] Update cancelled.")
 
 
 def main() -> None:
@@ -188,22 +188,22 @@ def main() -> None:
     appropriate argument based on user input.
     """
     parser = argparse.ArgumentParser(
-        description='Sync files from source to destination if updated.'
+        description="Sync files from source to destination if updated."
     )
     parser.add_argument(
-        '-y',
-        '--yes',
-        action='store_true',
-        help='Auto-confirm updates without prompt.',
+        "-y",
+        "--yes",
+        action="store_true",
+        help="Auto-confirm updates without prompt.",
     )
     args = parser.parse_args()
 
     sync_files(auto_approve=args.yes)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     logging.basicConfig(
         level=logging.INFO,
-        format='%(levelname)s - %(message)s',
+        format="%(levelname)s - %(message)s",
     )
     main()
