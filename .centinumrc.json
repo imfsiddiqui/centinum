@@ -8,6 +8,10 @@
         {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": "centinum.code-workspace",
+          "destination": "brepo.code-workspace"
         }
       ]
     },
@@ -17,6 +21,10 @@
         {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": "centinum.code-workspace",
+          "destination": "imfsiddiqui.github.io.code-workspace"
         }
       ]
     },
@@ -26,6 +34,10 @@
         {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": "centinum.code-workspace",
+          "destination": "ipm.code-workspace"
         }
       ]
     },
@@ -35,6 +47,10 @@
         {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": "centinum.code-workspace",
+          "destination": "logkey.code-workspace"
         }
       ]
     },
@@ -44,6 +60,10 @@
         {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": "centinum.code-workspace",
+          "destination": "monitory.code-workspace"
         }
       ]
     },
@@ -53,6 +73,10 @@
         {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": "centinum.code-workspace",
+          "destination": "nexus.code-workspace"
         }
       ]
     }
