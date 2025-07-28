@@ -100,7 +100,7 @@ jobs:
                 --base main \
                 --head "${branch}" \
                 --repo "${target_repo}" \
-                --label enhancement \
+                --label "🔧 chore" \
                 --assignee "${GITHUB_ACTOR}"
               pr_num=$(gh pr list \
                 --state open \
