@@ -112,7 +112,6 @@ jobs:
               gh pr merge \
                 "${pr_num}" \
                 --merge \
-                --admin \
                 --delete-branch \
                 --repo "${target_repo}"
               popd || exit
