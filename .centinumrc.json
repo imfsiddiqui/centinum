@@ -1,0 +1,51 @@
+{
+  "branch": "chore/update-configurations",
+
+  "target_repos": [
+    {
+      "repo_name": "imfsiddiqui/brepo",
+      "files": [
+        {
+          "source": ".cspell.yaml",
+          "destination": ".cspell.yaml"
+        }
+      ]
+    },
+    {
+      "repo_name": "imfsiddiqui/ipm",
+      "files": [
+        {
+          "source": ".cspell.yaml",
+          "destination": ".cspell.yaml"
+        }
+      ]
+    },
+    {
+      "repo_name": "imfsiddiqui/logkey",
+      "files": [
+        {
+          "source": ".cspell.yaml",
+          "destination": ".cspell.yaml"
+        }
+      ]
+    },
+    {
+      "repo_name": "imfsiddiqui/monitory",
+      "files": [
+        {
+          "source": ".cspell.yaml",
+          "destination": ".cspell.yaml"
+        }
+      ]
+    },
+    {
+      "repo_name": "imfsiddiqui/nexus",
+      "files": [
+        {
+          "source": ".cspell.yaml",
+          "destination": ".cspell.yaml"
+        }
+      ]
+    }
+  ]
+}
