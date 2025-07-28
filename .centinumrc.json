@@ -6,8 +6,65 @@
       "repo_name": "imfsiddiqui/brepo",
       "files": [
         {
+          "source": ".github/copilot/commit-message-instructions.md",
+          "destination": ".github/copilot/commit-message-instructions.md"
+        },
+        {
+          "source": ".github/copilot/pull-request-description-instructions.md",
+          "destination": ".github/copilot/pull-request-description-instructions.md"
+        },
+        {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": ".editorconfig",
+          "destination": ".editorconfig"
+        },
+        {
+          "source": ".gitignore",
+          "destination": ".gitignore"
+        },
+        {
+          "source": ".prettierrc.yaml",
+          "destination": ".prettierrc.yaml"
+        },
+        {
+          "source": "centinum.code-workspace",
+          "destination": "brepo.code-workspace"
+        }
+      ]
+    },
+    {
+      "repo_name": "imfsiddiqui/imfsiddiqui.github.io",
+      "files": [
+        {
+          "source": ".github/copilot/commit-message-instructions.md",
+          "destination": ".github/copilot/commit-message-instructions.md"
+        },
+        {
+          "source": ".github/copilot/pull-request-description-instructions.md",
+          "destination": ".github/copilot/pull-request-description-instructions.md"
+        },
+        {
+          "source": ".cspell.yaml",
+          "destination": ".cspell.yaml"
+        },
+        {
+          "source": ".editorconfig",
+          "destination": ".editorconfig"
+        },
+        {
+          "source": ".gitignore",
+          "destination": ".gitignore"
+        },
+        {
+          "source": ".prettierrc.yaml",
+          "destination": ".prettierrc.yaml"
+        },
+        {
+          "source": "centinum.code-workspace",
+          "destination": "imfsiddiqui.github.io.code-workspace"
         }
       ]
     },
@@ -15,8 +72,32 @@
       "repo_name": "imfsiddiqui/ipm",
       "files": [
         {
+          "source": ".github/copilot/commit-message-instructions.md",
+          "destination": ".github/copilot/commit-message-instructions.md"
+        },
+        {
+          "source": ".github/copilot/pull-request-description-instructions.md",
+          "destination": ".github/copilot/pull-request-description-instructions.md"
+        },
+        {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": ".editorconfig",
+          "destination": ".editorconfig"
+        },
+        {
+          "source": ".gitignore",
+          "destination": ".gitignore"
+        },
+        {
+          "source": ".prettierrc.yaml",
+          "destination": ".prettierrc.yaml"
+        },
+        {
+          "source": "centinum.code-workspace",
+          "destination": "ipm.code-workspace"
         }
       ]
     },
@@ -24,8 +105,48 @@
       "repo_name": "imfsiddiqui/logkey",
       "files": [
         {
+          "source": ".github/copilot/commit-message-instructions.md",
+          "destination": ".github/copilot/commit-message-instructions.md"
+        },
+        {
+          "source": ".github/copilot/pull-request-description-instructions.md",
+          "destination": ".github/copilot/pull-request-description-instructions.md"
+        },
+        {
+          "source": ".black.toml",
+          "destination": ".black.toml"
+        },
+        {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": ".editorconfig",
+          "destination": ".editorconfig"
+        },
+        {
+          "source": ".flake8",
+          "destination": ".flake8"
+        },
+        {
+          "source": ".gitignore",
+          "destination": ".gitignore"
+        },
+        {
+          "source": ".isort.cfg",
+          "destination": ".isort.cfg"
+        },
+        {
+          "source": ".prettierrc.yaml",
+          "destination": ".prettierrc.yaml"
+        },
+        {
+          "source": ".pylintrc.toml",
+          "destination": ".pylintrc.toml"
+        },
+        {
+          "source": "centinum.code-workspace",
+          "destination": "logkey.code-workspace"
         }
       ]
     },
@@ -33,8 +154,48 @@
       "repo_name": "imfsiddiqui/monitory",
       "files": [
         {
+          "source": ".github/copilot/commit-message-instructions.md",
+          "destination": ".github/copilot/commit-message-instructions.md"
+        },
+        {
+          "source": ".github/copilot/pull-request-description-instructions.md",
+          "destination": ".github/copilot/pull-request-description-instructions.md"
+        },
+        {
+          "source": ".black.toml",
+          "destination": ".black.toml"
+        },
+        {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": ".editorconfig",
+          "destination": ".editorconfig"
+        },
+        {
+          "source": ".flake8",
+          "destination": ".flake8"
+        },
+        {
+          "source": ".gitignore",
+          "destination": ".gitignore"
+        },
+        {
+          "source": ".isort.cfg",
+          "destination": ".isort.cfg"
+        },
+        {
+          "source": ".prettierrc.yaml",
+          "destination": ".prettierrc.yaml"
+        },
+        {
+          "source": ".pylintrc.toml",
+          "destination": ".pylintrc.toml"
+        },
+        {
+          "source": "centinum.code-workspace",
+          "destination": "monitory.code-workspace"
         }
       ]
     },
@@ -42,8 +203,32 @@
       "repo_name": "imfsiddiqui/nexus",
       "files": [
         {
+          "source": ".github/copilot/commit-message-instructions.md",
+          "destination": ".github/copilot/commit-message-instructions.md"
+        },
+        {
+          "source": ".github/copilot/pull-request-description-instructions.md",
+          "destination": ".github/copilot/pull-request-description-instructions.md"
+        },
+        {
           "source": ".cspell.yaml",
           "destination": ".cspell.yaml"
+        },
+        {
+          "source": ".editorconfig",
+          "destination": ".editorconfig"
+        },
+        {
+          "source": ".gitignore",
+          "destination": ".gitignore"
+        },
+        {
+          "source": ".prettierrc.yaml",
+          "destination": ".prettierrc.yaml"
+        },
+        {
+          "source": "centinum.code-workspace",
+          "destination": "nexus.code-workspace"
         }
       ]
     }

@@ -8,5 +8,5 @@ max-doc-length = 72
 max-line-length = 88
 docstring-convention = google
 docstring-quotes = """
-inline-quotes = '
-multiline-quotes = '''
+inline-quotes = "
+multiline-quotes = """
