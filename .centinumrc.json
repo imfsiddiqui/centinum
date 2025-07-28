@@ -12,6 +12,15 @@
       ]
     },
     {
+      "repo_name": "imfsiddiqui/imfsiddiqui.github.io",
+      "files": [
+        {
+          "source": ".cspell.yaml",
+          "destination": ".cspell.yaml"
+        }
+      ]
+    },
+    {
       "repo_name": "imfsiddiqui/ipm",
       "files": [
         {
